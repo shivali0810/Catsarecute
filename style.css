@@ -1,0 +1,124 @@
+*{
+    margin:10px;
+}
+
+h1
+{
+    color:rgb(3, 53, 55);
+   text-transform: uppercase;
+   border-top: 3px solid rgb(3, 53, 55);
+   font-size: 10px;
+   background: linear-gradient(to right, magenta, cyan);
+   line-height:10vh;
+   width:100vw;
+   text-align: center;
+}
+
+h2{
+    color:rgb(3, 53, 55);
+   text-transform: uppercase;
+   border-top: 3px solid rgb(3, 53, 55);
+   font-size: 10px;
+   background: linear-gradient(to right, magenta, cyan);
+   line-height:5vh;
+   width:50vw;
+   text-align: center;
+}
+
+h3{
+    color:rgb(3, 53, 55);
+   text-transform: uppercase;
+   border-top: 3px solid rgb(3, 53, 55);
+   font-size: 10px;
+   background: linear-gradient(to right, magenta, cyan);
+   line-height:2.5vh;
+   width:25vw;
+   text-align: center;
+}
+
+body{
+    background-color:cadetblue;
+    color:rgb(3, 53, 55);
+    font-family:monospace;
+    font-weight: 1px;
+}
+
+img {
+    height: 300px;
+    border-radius: 50%;
+}
+
+#container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin:10vh 10vw 10vh 10vw;
+}
+
+button{
+    background-color: cadetblue;
+    color:rgb(3, 53, 55);
+    border: 1px solid rgb(3, 53, 55);
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: none;
+   letter-spacing: 4px;
+margin: 30px auto 0;
+padding: 20px 25px;
+}
+
+button:hover{
+    background-color:rgb(3, 53, 55);
+    color:cadetblue;
+    transition: 1s;
+    text-decoration: underline;
+}
+
+p{
+    font-size: 20px;
+}
+
+.down{
+    display:flex;
+    margin:30px 20px 30px 20px;
+    flex-direction: row;
+    height: 400px;
+    width:95vw;
+    justify-content: center;
+    align-items: center;
+border:2px solid rgb(3, 53, 55);
+}
+
+.down img{
+    width:25vw;;
+    height: 300px;
+    border-radius: 1%;
+    margin:10px;
+    border: 2px outset rgb(3, 37, 37);
+    padding:1vw;
+}
+
+#nn{
+    width:50vw;
+}
+#n1{
+    margin:0;
+    background-color: chartreuse;
+    height:50%;
+    width:20%;
+    display:inline-block;
+    }
+    
+    #n2{
+        margin:0;
+        background-color: crimson;
+        height:50%;
+        width:80%;
+        display:inline-block;
+        }
+    
+       
